@@ -110,6 +110,10 @@ nav {
     background-repeat: no-repeat;
     margin-top: 50px;
 }
+.dotty3 {
+    margin-left: 1170px;
+    margin-top: -357px;
+}
 .three .row {
     margin-left: 100px;
     margin-right: -150px;
@@ -139,6 +143,9 @@ nav {
     line-height: 28px;
     color: #7D7987;
 }
+.three .card-body {
+    margin-top: 5px;
+}
 body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > h5{
     margin-top: 17px;
 }
@@ -164,7 +171,7 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
     flex-direction: row-reverse;
     width: 90%;
     margin-top: 300px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     align-items: center;
     justify-content: space-between;
 }
@@ -212,7 +219,7 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
     margin-left: 8%;
     width: 445px;
     height: 338px;
-    padding-bottom: 20px;
+    margin-bottom: 300px;
 }
 .app h4 {
     font-family: 'Mulish', sans-serif;
@@ -246,18 +253,28 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
 }
+.dotty {
+    margin-bottom: -370px;
+    margin-left: 160px;
+}
 .six .card-title {
     color: #FFFFFF;
     display: block;
     align-items: center;
     text-align: center;
 }
-
+.card-body {
+    margin-top: -70px;
+}
+.cardim {
+    margin-left: 1032px;
+    margin-top: -15px;
+}
 .cardb {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .cardb p {
     width: 420px;
@@ -287,14 +304,22 @@ body > main > section.six > div > div > div.cardb > h2 {
 .seven {
     height: 810px;
     margin-top: 300px;
+    background-image: url(img/element.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dotty2 {
+    margin-bottom: -320px;
+    margin-left: -910px;
 }
 .card-deck {
     margin-top: 50px;
 }
 .card-deck .card {
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 460px;
     text-align: left;
+    margin-top: 200px;
 }
 .card-deck img {
     border-top-left-radius: 20px;
@@ -321,19 +346,23 @@ body > main > section.six > div > div > div.cardb > h2 {
     line-height: 32px;
     color: #000000;
 }
+.seven .card-body {
+    margin-top: 10px;
+}
 .card-deck .card-text {
     font-family: 'Mulish', sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
     color: #7D7987;
+    margin-top: 10px;
 }
 .viewbtn button{
     font-family: 'Mulish', sans-serif;
     width: 200px;
     height: 56px;
     border-radius: 55px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .text-muted {
     font-family: 'Mulish', sans-serif;
@@ -347,6 +376,7 @@ body > main > section.six > div > div > div.cardb > h2 {
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     color: #FFFFFF;
     font-family: 'Mulish', sans-serif;
+    margin-top: 200px;
 }
 .footer {
     display: flex;
@@ -355,13 +385,14 @@ body > main > section.six > div > div > div.cardb > h2 {
 }
 .footerimg {
     margin-top: 315px;
+    margin-left: -110px;
 }
 body > main > section.eight > footer > div > div:nth-child(2) > div:nth-child(1) > span:nth-child(1) {
     width: 61px;
     height: 61px;
-    border-radius: 41px;
+    border-radius: 9px;
     background: #FFFFFF;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 26px;
     color: #5B9BF3;
 }
