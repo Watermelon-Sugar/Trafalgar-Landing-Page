@@ -7,46 +7,42 @@ body {
     background-color: #FFFFFF;
     overflow-x: hidden;
 }
-.navbar-brand {
-    margin-right: 150px;
+header {
+    padding-top: 20px;
 }
-nav {
-    position: absolute;
-    width: 1550px;
-    height: 47px;
-    top: 37px;
+.navbar a {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
 }
 .navbar-brand img {
     width: 160px;
     height: 41px;
     top: 56px;
-    margin-left: 100px;
-    margin-right: 500px;
-}
-.nav-item  {
-    width: 120px;
-    height: 23px;
-    display: flex;
-    justify-content: space-between;
+    padding-left: 10%;
 }
 .one {
     display: flex;
-    width: 90%;
+    width: 50%;
     margin-top: 100px;
     margin-bottom: 10px;
-    align-items: center;
     justify-content: space-between;
 }
 .care {
     margin-top: 0;
-    margin-left: 8%;
-    width: 445px;
-    height: 338px;
+    margin-left: 12%;
     padding-bottom: 20px;
+    width: 65%
 }
-.illustration {
-    padding-left: 100px;
-    right: 0;
+.illustration {    
+    padding-left: 12%;
+}
+.illustration img {
+    position: absolute;
+    right: 5.5%;
+    width: 40%;
+    top: 15%;
 }
 .care h1 {
     font-family: 'Mulish', sans-serif;
@@ -62,7 +58,6 @@ nav {
     width: 200px;
     font-weight: bold;
     height: 56px;
-    left: 190px;
     border-radius: 55px;
     font-size: 20px;
     line-height: 26px;
@@ -78,16 +73,12 @@ nav {
     color: #7D7987;
 }
 .two {
-    width: 952px;
-    height: 177px;
-    display: block;
-    align-items: center;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .serv {
-    margin-left: 350px;
-    width: 952px;
+    width: 70%;
+    margin-left: 15%;
 }
 .two h3 {
     font-family: 'Mulish', sans-serif;
@@ -107,27 +98,26 @@ nav {
     color: #7D7987;
 }
 .three {
-    width: 1120px;
-    height: 745px;
-    background-image: url(img/dropbg.png);
+    background-image: url(img/cardbg.png);
     background-repeat: no-repeat;
     margin-top: 50px;
+    background-size: contain;
 }
 .dotty3 {
-    margin-left: 1170px;
-    margin-top: -357px;
+    padding-left: 66%;
+    margin-top: -32%;
 }
 .three .row {
-    margin-left: 100px;
-    margin-right: -150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 4%;
 }
 .card {
     background: #FFFFFF;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
-    width: 350px;
-    height: 254px;
-    margin-left: 100px;
+    width: 120%;
+    height: 87%; 
     margin-top: 40px;
 }
 .card-title {
@@ -149,42 +139,29 @@ nav {
 .three .card-body {
     margin-top: 5px;
 }
-body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > h5{
-    margin-top: 17px;
-}
-body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > p {
-    margin-top: 15px;
-}
 .three button {
     border: 1.4px solid #458FF6;
     width: 200px;
     height: 56px;
     border-radius: 55px;
     margin-top: 50px;
-    margin-left: 700px;
-    display: block;
-    align-items: center;
+    margin-left: 43%;
     text-align: center;
     font-family: 'Mulish', sans-serif;
     font-size: 20px;
 }
 .four {
+    margin-top: 100px;  
     display: flex;
-    margin: auto;
+    margin-bottom: 10px;
+    text-align: left;
     flex-direction: row-reverse;
-    width: 90%;
-    margin-top: 300px;
-    margin-bottom: 150px;
-    align-items: center;
-    justify-content: space-between;
 }
 .providers {
-    display: block;
-    justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 80px;
-    width: 486px;
-    height: 388px;
+    width: 50%;  
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-left: 18%;
 }
 .providers h4 {
     font-family: 'Mulish', sans-serif;
@@ -193,7 +170,14 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
     line-height: 56px;
     color: #000000;
     margin-bottom: 10px;
-
+}
+.illustrations {    
+    padding-left: 5%;
+}
+.illustrations img {
+    width: 120%;
+    position: relative;
+    bottom: 9.49%;
 }
 .providers p {
     font-family: 'Mulish', sans-serif;
@@ -202,8 +186,9 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
     font-size: 21px;
     line-height: 32px;
     color: #7D7987;
+    padding-right: 15%;
 }
-.providers button{
+.providers button {
     box-sizing: border-box;
     border-radius: 55px;
     width: 200px;
@@ -212,7 +197,7 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
 .five {
     display: flex;
     width: 90%;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-bottom: 50px;
     align-items: center;
     justify-content: space-between;
@@ -222,7 +207,6 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
     margin-left: 8%;
     width: 445px;
     height: 338px;
-    margin-bottom: 300px;
 }
 .app h4 {
     font-family: 'Mulish', sans-serif;
@@ -246,19 +230,21 @@ body > main > section.three > div:nth-child(2) > div:nth-child(2) > div > div > 
     width: 200px;
     height: 56px;
 }
+.illustration3 {    
+    padding-left: 18%;
+    padding-bottom: 30%;
+}
+.illustration3 img {
+    width: 100%;
+}
 .six {
-    margin-top: 300px;
+    margin-top: 50px;
 }
 .six .card {
-    width: 1120px;
-    height: 425px;
+    width: 80%;
     margin: auto;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
-}
-.dotty {
-    margin-bottom: -370px;
-    margin-left: 160px;
 }
 .six .card-title {
     color: #FFFFFF;
@@ -301,26 +287,24 @@ body > main > section.six > div > div > div.cardb > h2 {
     margin-right: 50px;
 }
 .arrow {
-    margin-left: 600px;
+    margin-left: 35%;
     margin-top: 25px;
 }
 .seven {
     height: 810px;
-    margin-top: 300px;
+    margin-top: 100px;
     background-image: url(img/element.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 .dotty2 {
     margin-bottom: -320px;
-    margin-left: -910px;
+    margin-left: -98%;
 }
 .card-deck {
     margin-top: 50px;
 }
 .card-deck .card {
-    width: 400px;
-    height: 460px;
     text-align: left;
     margin-top: 200px;
 }
@@ -329,10 +313,6 @@ body > main > section.six > div > div > div.cardb > h2 {
     border-top-right-radius: 20px;
 }
 .seven .out {
-    width: 952px;
-    height: 177px;
-    margin: auto;
-    display: block;
     align-items: center;
     text-align: center;
 }
@@ -374,8 +354,7 @@ body > main > section.six > div > div > div.cardb > h2 {
     color: #4089ED;
 }
 .eight {
-    width: 1583px;
-    height: 432px;
+    width: 100%;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     color: #FFFFFF;
     font-family: 'Mulish', sans-serif;
